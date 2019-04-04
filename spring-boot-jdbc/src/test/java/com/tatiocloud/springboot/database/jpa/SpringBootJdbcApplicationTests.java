@@ -1,4 +1,4 @@
-package com.tatiocloud.springboot.database.jdbc;
+package com.tatiocloud.springboot.database.jpa;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
