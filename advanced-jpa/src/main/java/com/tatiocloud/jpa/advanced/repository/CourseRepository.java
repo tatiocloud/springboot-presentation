@@ -1,15 +1,17 @@
 package com.tatiocloud.jpa.advanced.repository;
 
 import com.tatiocloud.jpa.advanced.entities.Course;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.transaction.Transactional;
 
 @Repository
+@Transactional
 public class CourseRepository {
 
-    @Autowired
+    @PersistenceContext
     EntityManager entityManager;
 
 
@@ -18,13 +20,16 @@ public class CourseRepository {
     }
 
 
+    /*
     public Course save(Course course) {
-        return null;
-    }
-
-    public void delete(long id) {
+        return entityManager.merge(course);
 
     }
+
+    public void delete(Course course) {
+        entityManager.remove(course);
+    }
+    */
 
 
 }

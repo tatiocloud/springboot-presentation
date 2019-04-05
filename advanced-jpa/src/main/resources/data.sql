@@ -7,6 +7,7 @@ create table course(
 );
 */
 
-// no double quotes in sql script for strings
+/* no double quotes in sql script for strings */
+
 insert into course(id,name) values ( 101,'Scala for impatient' );
 insert into course(id,name) values ( 102,'Java for impatient' );

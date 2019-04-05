@@ -26,5 +26,10 @@ public class AdvancedJpaApplication implements CommandLineRunner {
         Course courseReturned = repository.findById(101);
         logger.info("Course with id {} -> {}",courseReturned.getId(),courseReturned.getName());
 
+//        Course courseToBeSaved = new Course("Kafka Data Streams");
+//        Course saveDCourse = repository.save(courseToBeSaved);
+//        logger.info("Course to be Saved {} -> {}",saveDCourse.getId(), saveDCourse.getName());
+//        repository.delete(saveDCourse);
+//        logger.info("Course to be Deleted {}",saveDCourse.getId());
     }
 }
