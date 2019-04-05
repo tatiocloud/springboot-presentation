@@ -1,6 +1,6 @@
 package com.tatiocloud.springboot.database.jpa;
 
-import com.tatiocloud.springboot.database.beans.Person;
+import com.tatiocloud.springboot.database.entity.Person;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.io.Serializable;

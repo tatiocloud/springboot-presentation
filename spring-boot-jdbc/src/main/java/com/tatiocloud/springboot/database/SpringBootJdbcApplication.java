@@ -1,6 +1,6 @@
 package com.tatiocloud.springboot.database;
 
-import com.tatiocloud.springboot.database.beans.Person;
+import com.tatiocloud.springboot.database.entity.Person;
 import com.tatiocloud.springboot.database.jpa.PersonJdbcDao;
 import com.tatiocloud.springboot.database.jpa.PersonRowMapperJdbcDao;
 import org.slf4j.Logger;

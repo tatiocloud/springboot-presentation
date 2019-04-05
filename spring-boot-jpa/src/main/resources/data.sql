@@ -1,3 +1,4 @@
+/*
 create table person
 (
     id       integer       not null,
@@ -6,6 +7,7 @@ create table person
     birthday timestamp,
     primary key (id)
 );
+*/
 
 INSERT INTO PERSON (ID,NAME,LOCATION,BIRTHDAY)
 VALUES (10001,'Ram','London',sysdate);

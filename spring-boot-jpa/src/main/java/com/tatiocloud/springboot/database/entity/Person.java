@@ -1,13 +1,12 @@
-package com.tatiocloud.springboot.database.beans;
+package com.tatiocloud.springboot.database.entity;
 
 import javax.persistence.*;
 import java.sql.Date;
 import java.util.Objects;
 
 @Entity
-@Table(name = "person")
+@NamedQuery(name = "find_all_persons", query = "select p from Person p")
 public class Person {
-
 
     @Id
     @GeneratedValue

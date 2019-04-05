@@ -1,6 +1,6 @@
 package com.tatiocloud.springboot.database.jpa;
 
-import com.tatiocloud.springboot.database.beans.Person;
+import com.tatiocloud.springboot.database.entity.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

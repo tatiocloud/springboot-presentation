@@ -1,7 +1,6 @@
-package com.tatiocloud.springboot.database.beans;
+package com.tatiocloud.springboot.database.entity;
 
 import java.sql.Timestamp;
-import java.util.Date;
 import java.util.Objects;
 
 public class Person {
